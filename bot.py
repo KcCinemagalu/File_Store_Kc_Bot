@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/+ZnwqBA4XdYY0NDVl")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/+fj3Za3DEuXxlOWM1")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -319,7 +319,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://t.me/+8z_WeBj3AotiNGU1")
+                                             url="https://t.me/+fj3Za3DEuXxlOWM1")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/+ZnwqBA4XdYY0NDVl")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/+fj3Za3DEuXxlOWM1")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -411,7 +411,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/+ZnwqBA4XdYY0NDVl"),
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/+fj3Za3DEuXxlOWM1"),
                         InlineKeyboardButton("Support Group", url="https://t.me/mcfucker09")
                     ],
                     [
