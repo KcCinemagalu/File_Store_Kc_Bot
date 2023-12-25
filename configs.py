@@ -10,7 +10,8 @@ class Config(object):
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "2a8d82ec088d8c8e24c9b905d1bbe305097d8d43")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "6606973036"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://deendayaldhaked9:6PFNcPY4ckT7FFQp@cluster0.z536xun.mongodb.net/?retryWrites=true&w=majority")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001985381033")
+  FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002102699620"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001586019023"))
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001990529377"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
@@ -36,9 +37,6 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
  
  I am Super noob Please Support My Hard Work.
  #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002102699620"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001586019023"))
-
 
 [Donate Me](https://t.me/opabhi0)
 """
