@@ -35,6 +35,10 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Godslayer Boruto](https://telegram.me/opabhi0)
  
  I am Super noob Please Support My Hard Work.
+ #force sub channel id, if you want enable force sub
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002102699620"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001586019023"))
+
 
 [Donate Me](https://t.me/opabhi0)
 """
